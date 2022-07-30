@@ -13,7 +13,7 @@ from pyrogram.types import Message
 from config import BANNED_USERS
 from strings import get_command
 from HerlockMusic import app
-from HerlockMusic.core.call import Yukki
+from HerlockMusic.core.call import Herlock
 from HerlockMusic.utils.database import is_muted, mute_on
 from HerlockMusic.utils.decorators import AdminRightsCheck
 
