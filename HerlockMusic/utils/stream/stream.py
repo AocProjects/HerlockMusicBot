@@ -15,7 +15,7 @@ from pyrogram.types import InlineKeyboardMarkup
 
 import config
 from HerlockMusic import Carbon, YouTube, app
-from HerlockMusic.core.call import Yukki
+from HerlockMusic.core.call import Herlock
 from HerlockMusic.misc import db
 from HerlockMusic.utils.database import (add_active_chat,
                                        add_active_video_chat,
