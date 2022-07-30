@@ -7,7 +7,7 @@
 #
 # All rights reserved.
 
-from HerlocMusic import app
+from HerlockMusic import app
 from HerlockMusic.utils.database import get_cmode
 
 
