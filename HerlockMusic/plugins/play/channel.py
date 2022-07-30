@@ -12,9 +12,9 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.utils.database import set_cmode
-from YukkiMusic.utils.decorators.admins import AdminActual
+from HerlockMusic import app
+from HerlockMusic.utils.database import set_cmode
+from HerlockMusic.utils.decorators.admins import AdminActual
 
 ### Multi-Lang Commands
 CHANNELPLAY_COMMAND = get_command("CHANNELPLAY_COMMAND")
