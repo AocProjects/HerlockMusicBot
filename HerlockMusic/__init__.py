@@ -7,7 +7,7 @@
 #
 # All rights reserved.
 
-from HerlockMusic.core.bot import YukkiBot
+from HerlockMusic.core.bot import HerlockBot
 from HerlockMusic.core.dir import dirr
 from HerlockMusic.core.git import git
 from HerlockMusic.core.userbot import Userbot
@@ -31,7 +31,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = YukkiBot()
+app = HerlockBot()
 
 # Assistant Client
 userbot = Userbot()
