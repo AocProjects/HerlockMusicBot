@@ -7,8 +7,8 @@
 #
 # All rights reserved.
 
-from YukkiMusic import app
-from YukkiMusic.utils.database import get_cmode
+from HerlocMusic import app
+from HerlockMusic.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
