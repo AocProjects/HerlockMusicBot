@@ -14,9 +14,9 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.misc import db
-from YukkiMusic.utils.decorators import AdminRightsCheck
+from HerlockMusic import app
+from HerlockMusic.misc import db
+from HerlockMusic.utils.decorators import AdminRightsCheck
 
 # Commands
 SHUFFLE_COMMAND = get_command("SHUFFLE_COMMAND")
