@@ -7,28 +7,28 @@
 #
 # All rights reserved.
 
-HELP_1 = """✅**<u>Admin Commands:</u>**
+HELP_1 = """✅**<u>Admin Komutları:</u>**
 
-**c** stands for channel play.
+**c** kanal oynatma anlamına gelir.
 
-/pause or /cpause - Pause the playing music.
-/resume or /cresume- Resume the paused music.
-/mute or /cmute- Mute the playing music.
-/unmute or /cunmute- Unmute the muted music.
-/skip or /cskip- Skip the current playing music.
-/stop or /cstop- Stop the playing music.
-/shuffle or /cshuffle- Randomly shuffles the queued playlist.
-/seek or /cseek - Forward Seek the music to your duration
-/seekback or /cseekback - Backward Seek the music to your duration
+/pause veya /cpause - Çalan müziği duraklat.
+/resume veya /cresume- Resume the paused music.
+/mute veya /cmute- Mute the playing music.
+/unmute veya /cunmute- Unmute the muted music.
+/skip veya /cskip- Skip the current playing music.
+/stop veya /cstop- Stop the playing music.
+/shuffle veya /cshuffle- Randomly shuffles the queued playlist.
+/seek veya /cseek - Forward Seek the music to your duration
+/seekback veya /cseekback - Backward Seek the music to your duration
 /restart - Restart bot for your chat .
 
 
 ✅<u>**Specific Skip:**</u>
-/skip or /cskip [Number(example: 3)] 
+/skip veya /cskip [Number(example: 3)] 
     - Skips music to a the specified queued number. Example: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
 
 ✅<u>**Loop Play:**</u>
-/loop or /cloop [enable/disable] or [Numbers between 1-10] 
+/loop veya /cloop [enable/disable] or [Numbers between 1-10] 
     - When activated, bot loops the current playing music to 1-10 times on voice chat. Default to 10 times.
 
 ✅<u>**Auth Users:**</u>
@@ -49,11 +49,11 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 **v** stands for video play.
 **force** stands for force play.
 
-/play or /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
+/play veya /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
 
-/playforce or /vplayforce or /cplayforce -  **Force Play** stops the current playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue.
+/playforce veya /vplayforce veya /cplayforce -  **Force Play** stops the current playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue.
 
-/channelplay [Chat username or id] or [Disable] - Connect channel to a group and stream music on channel's voice chat from your group.
+/channelplay [Chat username or id] veya [Disable] - Connect channel to a group and stream music on channel's voice chat from your group.
 
 
 ✅**<u>Bot's Server Playlists:</u>**
