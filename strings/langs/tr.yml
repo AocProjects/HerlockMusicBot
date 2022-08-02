@@ -151,7 +151,7 @@ play_16 : "Parça ayrıntıları getirilemedi. başka şarkı dene."
 
 
 #Playlist
-playlist_1 : "**Kullanım:** /play [Müzik Adı veya Youtube Bağlantısı veya Sesi Yanıtla]\n\nBot'un Sunucu Oynatma Listesini oynatmak istiyorsanız! Aşağıdaki butona basın."
+playlist_1 : "**Kullanım:** /oynat [Müzik Adı veya Youtube Bağlantısı veya Sesi Yanıtla]\n\nBot'un Sunucu Oynatma Listesini oynatmak istiyorsanız! Aşağıdaki butona basın."
 playlist_2 : "Çalma listeniz alınıyor. Lütfen bekleyin"
 playlist_3 : "Bot Sunucusunda oynatma listeniz yok."
 playlist_4 : "Getirilen Oynatma Listesit:\n\n"
