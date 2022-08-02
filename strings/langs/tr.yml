@@ -199,7 +199,7 @@ ping_1 : "Ping!!!!"
 
 # Song
 song_1 : "YouTube'dan Müzik veya Video'yu yalnızca özel sohbette indirebilirsiniz. Lütfen beni özel sohbette başlat."
-song_2 : "**Kullanım:**\n\n/song [Şarkı Adı] veya [Youtube Link]"
+song_2 : "**Kullanım:**\n\n/bul [Şarkı Adı] veya [Youtube Link]"
 song_3 : "Canlı Bağlantı Algılandı. Canlı youtube videolarını indiremiyorum. "
 song_4 : "**🔘 Başlık:**- {0}\n\nİndirmek istediğiniz türü seçin."
 song_5 : "Geçerli bir Youtube Bağlantısı değil"
