@@ -196,6 +196,7 @@ lyrics_4 : "Uzun spam türlerinde şarkı sözü aramasından kaçınmak için a
 
 #Ping
 ping_1 : "Ping!!!!"
+ping_2 : "{0} bir ping ile iyi çalışıyor `{1}` ms.\n\nBot'un çalışma süresi {2} ve toplamda kullandı {3} sunucunun deposu. CPU yükü yaklaşık {4} tüketimi ile {5} Veri deposu. Py-Tgcalls istemcisi de iyi bir ping alıyor `{6}` ms."
 
 # Song
 song_1 : "YouTube'dan Müzik veya Video'yu yalnızca özel sohbette indirebilirsiniz. Lütfen beni özel sohbette başlat."
