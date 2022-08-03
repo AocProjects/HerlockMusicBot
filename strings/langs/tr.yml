@@ -1,4 +1,4 @@
-name : 🏴󠁧󠁢󠁥󠁮󠁧󠁿 English
+name : 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Turkish
 
 # General Strings
 general_1 : "Bir kullanıcının mesajını yanıtlayın veya kullanıcıadı/kullanıcı_kimliği verin."
@@ -199,7 +199,7 @@ track_2 : "**Hata**\n\nBot'un sunucularında **{0} En İyi 10 Oynatma Listesi** 
 # TOOLS
 
 #Lyrics
-lyrics_1 : "**Kullanım:**\n\n/şarkı sözleri [Müzik Adı]"
+lyrics_1 : "**Kullanım:**\n\n/bul sözleri [Müzik Adı]"
 lyrics_2 : "Şarkı Sözleri Arama"
 lyrics_3 : "❌ Şarkı sözleri getirilemedi😭.\n\n💡**Aramaya çalışıldı:** {0}"
 lyrics_4 : "Uzun spam türlerinde şarkı sözü aramasından kaçınmak için aşağıdaki düğmeyi tıklayın ve aranan şarkı sözlerini alın."
@@ -211,7 +211,7 @@ ping_2 : "{0}, `{1}` ms'lik bir ping ile iyi çalışıyor.\n\nBot'un çalışma
 
 # Song
 song_1 : "YouTube'dan yalnızca özel sohbette Müzik veya Video indirebilirsiniz. Lütfen beni özel sohbette başlatın."
-song_2 : "**Kullanım:**\n\n/şarkı [Müzik Adı] veya [Youtube Bağlantısı]"
+song_2 : "**Kullanım:**\n\n/bul [Müzik Adı] veya [Youtube Bağlantısı]"
 song_3 : "Canlı Bağlantı Algılandı. Canlı youtube videolarını indiremiyorum."
 song_4 : "**🔗Başlık:**- {0}\n\nİndirmek istediğiniz türü seçin."
 song_5 : "Geçerli bir Youtube Bağlantısı değil"
