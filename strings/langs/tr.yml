@@ -164,7 +164,7 @@ play_18 : "**Etkin Sesli Sohbet Bulunamadı**\n\nZorla oynatmayı kullanmak içi
 
 
 #Playlist
-playlist_1 : "**Kullanım:** /play [Müzik Adı veya Youtube Bağlantısı veya Sesi Yanıtla]\n\nBot'un Sunucusu Oynatma Listesini oynatmak istiyorsanız! Aşağıdaki düğmeye basın."
+playlist_1 : "**Kullanım:** /oynat [Müzik Adı veya Youtube Bağlantısı veya Sesi Yanıtla]\n\nBot'un Sunucusu Oynatma Listesini oynatmak istiyorsanız! Aşağıdaki düğmeye basın."
 playlist_2 : "Çalma listeniz alınıyor. Lütfen bekleyin"
 playlist_3 : "Bot Sunucusunda oynatma listeniz yok."
 playlist_4 : "Getirilen Çalma Listesi:\n\n"
@@ -199,7 +199,7 @@ track_2 : "**Hata**\n\nBot'un sunucularında **{0} En İyi 10 Oynatma Listesi** 
 # TOOLS
 
 #Lyrics
-lyrics_1 : "**Kullanım:**\n\n/bul sözleri [Müzik Adı]"
+lyrics_1 : "**Kullanım:**\n\n/lyrics sözleri [Müzik Adı]"
 lyrics_2 : "Şarkı Sözleri Arama"
 lyrics_3 : "❌ Şarkı sözleri getirilemedi😭.\n\n💡**Aramaya çalışıldı:** {0}"
 lyrics_4 : "Uzun spam türlerinde şarkı sözü aramasından kaçınmak için aşağıdaki düğmeyi tıklayın ve aranan şarkı sözlerini alın."
