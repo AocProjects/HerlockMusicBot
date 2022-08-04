@@ -1,11 +1,5 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+
 
 import asyncio
 from datetime import datetime, timedelta
@@ -295,7 +289,7 @@ class Call(PyTgCalls):
                 )
             except Exception as e:
                 raise AssistantErr(
-                    "**No Active Voice Chat Found**\n\nPlease make sure group's voice chat is enabled. If already enabled, please end it and start fresh voice chat again and if the problem continues, try /restart"
+                    "**Etkin Sesli Sohbet Bulunamadı**\n\nLütfen grubun sesli sohbetinin etkinleştirildiğinden emin olun. Zaten etkinse, lütfen sonlandırın ve yeni sesli sohbeti yeniden başlatın ve sorun devam ederse, /restart başlatmayı deneyin"
                 )
         except AlreadyJoinedError:
             raise AssistantErr(
