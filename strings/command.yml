@@ -34,18 +34,18 @@ DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
 # Tools
 QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
 SONG_COMMAND : ["bul", "video"]
-LYRICS_COMMAND : ["lyrics"]
+LYRICS_COMMAND : ["soz"]
 
 
 # Admin Commands
 AUTH_COMMAND : ["auth"]
 UNAUTH_COMMAND : ["unauth"]
 AUTHUSERS_COMMAND : ["authusers"]
-PAUSE_COMMAND : ["duraklat", "cdurdur"]
+PAUSE_COMMAND : ["durdur", "cdurdur"]
 RESUME_COMMAND : ["devam", "cresume"]
 MUTE_COMMAND : ["mute", "cmute"]
 UNMUTE_COMMAND : ["unmute", "cunmute"]
-STOP_COMMAND : ["stop", "end", "cstop", "cend"]
+STOP_COMMAND : ["bitir", "end", "cbitir", "cend"]
 SKIP_COMMAND : ["atla", "catla"]
 SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
 LOOP_COMMAND : ["loop", "cloop"]
@@ -55,8 +55,8 @@ RESTART_COMMAND : ["restart"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo"]
-DELSUDO_COMMAND : ["delsudo"]
+ADDSUDO_COMMAND : ["sudoekle"]
+DELSUDO_COMMAND : ["sudosil"]
 SUDOUSERS_COMMAND : ["sudolist"]
 
 #Broadcast 
