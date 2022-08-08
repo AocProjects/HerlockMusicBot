@@ -33,7 +33,7 @@ async def init():
         and not config.STRING5
     ):
         LOGGER("HerlockMusic").error(
-            "No Assistant Clients Vars Defined!.. Exiting Process."
+            "Asistan İstemci Tanımlı Vars Yok!.. İşlemden Çıkılıyor."
         )
         return
     if (
@@ -41,7 +41,7 @@ async def init():
         and not config.SPOTIFY_CLIENT_SECRET
     ):
         LOGGER("HerlockMusic").warning(
-            "No Spotify Vars defined. Your bot won't be able to play spotify queries."
+            "Spotify Vars tanımlı değil. Botunuz spotify sorgularını oynatamayacak."
         )
     try:
         users = await get_gbanned()
@@ -56,7 +56,7 @@ async def init():
     for all_module in ALL_MODULES:
         importlib.import_module("HerlockMusic.plugins" + all_module)
     LOGGER("Herlockmusic.plugins").info(
-        "Successfully Imported Modules "
+        "Modüller Başarıyla İçe Aktarıldı "
     )
     await userbot.start()
     await Herlock.start()
@@ -66,16 +66,16 @@ async def init():
         )
     except NoActiveGroupCall:
         LOGGER("HerlockMusic").error(
-            "[ERROR] - \n\nPlease turn on your Logger Group's Voice Call. Make sure you never close/end voice call in your log group"
+            "[ERROR] - \n\nLütfen Kaydedici Grubunuzun Sesli Aramasını açın. Günlük grubunuzdaki sesli aramayı asla kapatmadığınızdan/bitirmediğinizden emin olun."
         )
         sys.exit()
     except:
         pass
     await Herlock.decorators()
-    LOGGER("HerlockMusic").info("Herlock Music Bot Started Successfully")
+    LOGGER("HerlockMusic").info("Herlock Müzik Botu Başarıyla Başlatıldı")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("HerlockMusic").info("Stopping Herlock Music Bot! GoodBye")
+    LOGGER("HerlockMusic").info("Herlock Music Bot'u Durdurmak! Güle güle")
