@@ -16,13 +16,8 @@
 
 ## ⚠️ Heroku / Okteto / Railway
 
-We have temporarily disabled the deployment for  all these cloud service platforms due to security and ban issues. We don't want innocent users who sign up there to be banned from the platform as a result of this deployment. [Read More](https://t.me/HerlockProjects)
+We have temporarily disabled the deployment for  all these cloud service platforms due to security and ban issues. We don't want innocent users who sign up there to be banned from the platform as a result of this deployment. [Read More](https://t.me/aocsupport_bot)
 
-
-
-## 🖇 VPS Deployment
-
-Checkout [Docs](https://notreallyshikhar.gitbook.io/herlockmusicbot/deployment/local-hosting-or-vps) for Detailed Explanation on VPS Deploy
 
 
 # 🏷 Support / Assistance
@@ -31,27 +26,23 @@ Reach out to the maintainer at one of the following places:
 
 - [GitHub Issues](https://github.com/HerlockBots/herlockmusicbot)
 - Contact options listed on [this GitHub profile](https://github.com/SakirBey1)
-- [Telegram Support](https://t.me/HerlockProjects)
+- [Telegram Support](https://t.me/aocsupport_bot)
 
-If you want to say **thank you** or/and support active development of YukkiMusicBot:
+If you want to say **thank you** or/and support active development of HerlockMusicBot:
 
 - Add a [GitHub Star](https://github.com/HerlockBots/HerlockMusicBot) to the project.
 - Fork the Repo :)
 - Write interesting articles about the project on [Dev.to](https://dev.to/), [Medium](https://medium.com/) or your personal blog.
 
-Together, we can make **YukkiMusicBot** better!
+Together, we can make **HerlockMusicBot** better!
 # 📑 Acknowledgement / Credits
 
-Special thanks to these amazing projects/people which/who help power Yukki Music Bot:
+Special thanks to these amazing projects/people which/who help power Aoc Music Bot:
 
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 - [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
 - [CallsMusic Team](https://github.com/Callsmusic)
 - [Charon Baglari](https://github.com/XCBv021)
-
-
-Reminder that you are great, you are enough, and your presence is valued. If you are struggling with your mental health, please reach out to someone you love and consult a professional.
-
 
 
 
