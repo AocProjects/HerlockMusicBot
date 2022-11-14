@@ -90,23 +90,23 @@ async def varsFunc(client, message):
     text = f"""**MUSIC BOT CONFIG:**
 
 **<u>Basic Vars:</u>**
-`MUSIC_BOT_NAME` : **{bot_name}**
-`DURATION_LIMIT` : **{play_duration} min**
-`SONG_DOWNLOAD_DURATION_LIMIT` :** {song} min**
-`OWNER_ID` : **{owner_id}**
+`Müzik Botu Adı` : **{bot_name}**
+`Duraklama Limiti` : **{play_duration} min**
+`ŞARKI İNDİRME SÜRESİ SINIRI` :** {song} min**
+`Bot Sahibi Kimliği` : **{owner_id}**
     
 **<u>Custom Repo Vars:</u>**
-`UPSTREAM_REPO` : **{up_r}**
-`UPSTREAM_BRANCH` : **{up_b}**
-`GITHUB_REPO` :** {git}**
-`GIT_TOKEN `:** {token}**
+`Repo` : **{up_r}**
+`Branch` : **{up_b}**
+`Github Repo` :** {git}**
+`Token `:** {token}**
 
 
 **<u>Bot Vars:</u>**
-`AUTO_LEAVING_ASSISTANT` : **{ass}**
-`ASSISTANT_LEAVE_TIME` : **{auto_leave} seconds**
-`AUTO_SUGGESTION_MODE` :** {a_sug}**
-`AUTO_SUGGESTION_TIME` : **{auto_sug} seconds**
+`OTO KİRALAMA ASİSTANI` : **{ass}**
+`ASİSTAN İZİN ZAMANI` : **{auto_leave} seconds**
+`OTOMATİK ÖNERİ MODU` :** {a_sug}**
+`OTOMATİK ÖNERİ SÜRESİ` : **{auto_sug} seconds**
 `AUTO_DOWNLOADS_CLEAR` : **{down}**
 `PRIVATE_BOT_MODE` : **{pvt}**
 `YOUTUBE_EDIT_SLEEP` : **{yt_sleep} seconds**
