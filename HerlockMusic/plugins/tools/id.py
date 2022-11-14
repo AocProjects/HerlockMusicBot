@@ -5,22 +5,13 @@ from Config import Config
 from datetime import datetime
 
 
-app = Client(
-    "MentionAll",
-    api_id=Config.API_ID,
-    api_hash=Config.API_HASH,
-    bot_token=Config.BOT_TOKEN,
-    plugins=dict(root='pyrogram_plugins')
-)
 
-
-
-@app.on_message(filters.command("pyrogram"))
+@client.on_message(filters.command("pyrogram"))
 async def _py(client: Client, message: Message):
     await message.reply_text('Pyrogram is a Python library for Telegram bots.')
     
  
-@app.on_message(filters.command("id"))
+@client.on_message(filters.command("id"))
 async def _id(_, message: Message):
     msg = message.reply_to_message or message
     out_str = "**User İnfo:**\n"
@@ -32,7 +23,7 @@ async def _id(_, message: Message):
  
     await message.reply(out_str)
 
-@app.on_message(filters.command("info"))
+@client.on_message(filters.command("info"))
 async def _id(_, message: Message):
     msg = message.reply_to_message or message
     out_str = "**User İnfo:**\n"
